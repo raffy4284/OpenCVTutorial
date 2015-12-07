@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.0)
 project( BlurImage )
 find_package( OpenCV )
 include_directories( ${OpenCV_INCLUDE_DIRS} )

@@ -9,6 +9,7 @@ CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/core.hpp
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/core/affine.hpp
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/core/base.hpp
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/core/bufferpool.hpp
+CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/core/core.hpp
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/core/core_c.h
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/core/cvdef.h
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/core/cvstd.hpp
@@ -27,6 +28,7 @@ CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/core/types_c.h
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/core/utility.hpp
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/core/version.hpp
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/features2d.hpp
+CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/features2d/features2d.hpp
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/flann/config.h
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/flann/defines.h
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/flann/miniflann.hpp
@@ -54,4 +56,6 @@ CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/video/tracking.hp
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/video/tracking_c.h
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/videoio.hpp
 CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/videoio/videoio_c.h
+CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/xfeatures2d.hpp
+CMakeFiles/Webcam.dir/Webcam.cpp.o: /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
 
