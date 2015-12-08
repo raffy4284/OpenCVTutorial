@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /Users/raffy4284/Desktop/test
 CMAKE_BINARY_DIR = /Users/raffy4284/Desktop/test
 
 #=============================================================================
-# Target rules for target CMakeFiles/Webcam.dir
+# Target rules for target CMakeFiles/ObjectContouring.dir
 
 # All Build rule for target.
-CMakeFiles/Webcam.dir/all:
-	$(MAKE) -f CMakeFiles/Webcam.dir/build.make CMakeFiles/Webcam.dir/depend
-	$(MAKE) -f CMakeFiles/Webcam.dir/build.make CMakeFiles/Webcam.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/raffy4284/Desktop/test/CMakeFiles --progress-num=1,2 "Built target Webcam"
-.PHONY : CMakeFiles/Webcam.dir/all
+CMakeFiles/ObjectContouring.dir/all:
+	$(MAKE) -f CMakeFiles/ObjectContouring.dir/build.make CMakeFiles/ObjectContouring.dir/depend
+	$(MAKE) -f CMakeFiles/ObjectContouring.dir/build.make CMakeFiles/ObjectContouring.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/raffy4284/Desktop/test/CMakeFiles --progress-num=1,2 "Built target ObjectContouring"
+.PHONY : CMakeFiles/ObjectContouring.dir/all
 
 # Include target in all.
-all: CMakeFiles/Webcam.dir/all
+all: CMakeFiles/ObjectContouring.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Webcam.dir/rule: cmake_check_build_system
+CMakeFiles/ObjectContouring.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/raffy4284/Desktop/test/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Webcam.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ObjectContouring.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/raffy4284/Desktop/test/CMakeFiles 0
-.PHONY : CMakeFiles/Webcam.dir/rule
+.PHONY : CMakeFiles/ObjectContouring.dir/rule
 
 # Convenience name for target.
-Webcam: CMakeFiles/Webcam.dir/rule
+ObjectContouring: CMakeFiles/ObjectContouring.dir/rule
 
-.PHONY : Webcam
-
-# clean rule for target.
-CMakeFiles/Webcam.dir/clean:
-	$(MAKE) -f CMakeFiles/Webcam.dir/build.make CMakeFiles/Webcam.dir/clean
-.PHONY : CMakeFiles/Webcam.dir/clean
+.PHONY : ObjectContouring
 
 # clean rule for target.
-clean: CMakeFiles/Webcam.dir/clean
+CMakeFiles/ObjectContouring.dir/clean:
+	$(MAKE) -f CMakeFiles/ObjectContouring.dir/build.make CMakeFiles/ObjectContouring.dir/clean
+.PHONY : CMakeFiles/ObjectContouring.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ObjectContouring.dir/clean
 
 .PHONY : clean
 

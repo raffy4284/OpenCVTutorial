@@ -55,17 +55,22 @@
 int main(int argc, char** argv) {
   using namespace cv;
 
-  cv::VideoCapture camera(0);
+  cv::VideoCapture camera(1);
   cv::Mat src;
+  cv::Mat orig;
   
   
   while(1){
     camera >> src;
+    orig = src.clone();
+
+
     cvtColor(src, src, CV_BGR2GRAY );
+
     GaussianBlur( src, src, cv::Size(9, 9), 2, 2 );
     std::vector<Vec3f> circles;
 
-    //get circles!
+    //get circleCVs!
     HoughCircles(src, circles, CV_HOUGH_GRADIENT,
     2,   // accumulator resolution (size of the image / 2)
     5,  // minimum distance between two circles
@@ -77,7 +82,7 @@ int main(int argc, char** argv) {
     std::vector<cv::Vec3f>::const_iterator itc= circles.begin();
     while (itc!=circles.end()) {
 
-      cv::circle(src,
+      cv::circle(orig,
       cv::Point((*itc)[0], (*itc)[1]), // circle centre
       (*itc)[2],       // circle radius
       cv::Scalar(255), // color
@@ -86,7 +91,7 @@ int main(int argc, char** argv) {
       ++itc;
     }
     cv::namedWindow("image",CV_WINDOW_AUTOSIZE);
-    cv::imshow("image",src);
+    cv::imshow("image",orig);
     //Wait for a key to be pressed
     if (cv::waitKey(30) >= 0) break;
   }

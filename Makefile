@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Webcam
+# Target rules for targets named ObjectContouring
 
 # Build rule for target.
-Webcam: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Webcam
-.PHONY : Webcam
+ObjectContouring: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ObjectContouring
+.PHONY : ObjectContouring
 
 # fast build rule for target.
-Webcam/fast:
-	$(MAKE) -f CMakeFiles/Webcam.dir/build.make CMakeFiles/Webcam.dir/build
-.PHONY : Webcam/fast
+ObjectContouring/fast:
+	$(MAKE) -f CMakeFiles/ObjectContouring.dir/build.make CMakeFiles/ObjectContouring.dir/build
+.PHONY : ObjectContouring/fast
 
-Webcam.o: Webcam.cpp.o
+ObjectContouring.o: ObjectContouring.cpp.o
 
-.PHONY : Webcam.o
+.PHONY : ObjectContouring.o
 
 # target to build an object file
-Webcam.cpp.o:
-	$(MAKE) -f CMakeFiles/Webcam.dir/build.make CMakeFiles/Webcam.dir/Webcam.cpp.o
-.PHONY : Webcam.cpp.o
+ObjectContouring.cpp.o:
+	$(MAKE) -f CMakeFiles/ObjectContouring.dir/build.make CMakeFiles/ObjectContouring.dir/ObjectContouring.cpp.o
+.PHONY : ObjectContouring.cpp.o
 
-Webcam.i: Webcam.cpp.i
+ObjectContouring.i: ObjectContouring.cpp.i
 
-.PHONY : Webcam.i
+.PHONY : ObjectContouring.i
 
 # target to preprocess a source file
-Webcam.cpp.i:
-	$(MAKE) -f CMakeFiles/Webcam.dir/build.make CMakeFiles/Webcam.dir/Webcam.cpp.i
-.PHONY : Webcam.cpp.i
+ObjectContouring.cpp.i:
+	$(MAKE) -f CMakeFiles/ObjectContouring.dir/build.make CMakeFiles/ObjectContouring.dir/ObjectContouring.cpp.i
+.PHONY : ObjectContouring.cpp.i
 
-Webcam.s: Webcam.cpp.s
+ObjectContouring.s: ObjectContouring.cpp.s
 
-.PHONY : Webcam.s
+.PHONY : ObjectContouring.s
 
 # target to generate assembly for a file
-Webcam.cpp.s:
-	$(MAKE) -f CMakeFiles/Webcam.dir/build.make CMakeFiles/Webcam.dir/Webcam.cpp.s
-.PHONY : Webcam.cpp.s
+ObjectContouring.cpp.s:
+	$(MAKE) -f CMakeFiles/ObjectContouring.dir/build.make CMakeFiles/ObjectContouring.dir/ObjectContouring.cpp.s
+.PHONY : ObjectContouring.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Webcam"
-	@echo "... Webcam.o"
-	@echo "... Webcam.i"
-	@echo "... Webcam.s"
+	@echo "... ObjectContouring"
+	@echo "... ObjectContouring.o"
+	@echo "... ObjectContouring.i"
+	@echo "... ObjectContouring.s"
 .PHONY : help
 
 
